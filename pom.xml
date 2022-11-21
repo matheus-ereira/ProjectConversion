@@ -13,8 +13,6 @@
             <scope>test</scope>
             <type>jar</type>
         </dependency>
-<<<<<<< HEAD
-=======
         <dependency>
             <groupId>com.google.collections</groupId>
             <artifactId>google-collections</artifactId>
@@ -22,7 +20,6 @@
             <scope>test</scope>
             <type>jar</type>
         </dependency>
->>>>>>> master
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -8,10 +8,7 @@ package com.conversion.project.resources;
 public class ApplicationUtils {
     
     TemperatureConverter temperatureConverter = new TemperatureConverter();
-<<<<<<< HEAD
-=======
     CousinPrimeValidation cousinPrimeValidation = new CousinPrimeValidation();
->>>>>>> master
 
     public String conversionTratament(String option1, String option2, String value) throws NumberFormatException, ArithmeticException{
 
@@ -40,8 +37,6 @@ public class ApplicationUtils {
         
         return result;
     }
-<<<<<<< HEAD
-=======
     
     public String chooseTratament(String value){
         String result;
@@ -60,7 +55,6 @@ public class ApplicationUtils {
         
         return result;
     }
->>>>>>> master
 
     public boolean isNullOrEmpty(String value) {
         return value == null || value.isEmpty();
@@ -92,8 +86,6 @@ public class ApplicationUtils {
         }
         return null;
     }
-<<<<<<< HEAD
-=======
     
     public String choose(String value) {
         
@@ -123,5 +115,4 @@ public class ApplicationUtils {
         }
         return null;
     }
->>>>>>> master
 }

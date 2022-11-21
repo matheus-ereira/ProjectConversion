@@ -62,6 +62,25 @@ public class CousinPrimeValidationTest {
     }
     
     @Test
+    public void CousinPrimeValidation_Test_Validate_Number_With_Double_Format_Return_Error() {
+       //Arrange
+        String value = "2.0";
+        NumberFormatException exception = null;
+
+        //Act
+        try {
+            boolean result = CousinPrimeValidation.validateNumber(value);
+        } catch (NumberFormatException e) {
+            exception = e;
+        }
+
+        //Assert
+        assertNotNull(exception);
+        assertEquals("it is necessary to pass a valid integer number!", exception.getMessage());
+
+    }
+    
+    @Test
     public void CousinPrimeValidation_Test_Validate_Number_With_Not_Cousin_Number_Return_False() {
         //Arrange
         String value = "1";

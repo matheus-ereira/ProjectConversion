@@ -16,7 +16,7 @@ public class CousinPrimeValidation {
         try{
             cousinPrimeNumber = formattedNumber(number);
         }catch(NumberFormatException e){
-            throw new NumberFormatException("it is necessary to pass a valid number!");
+            throw new NumberFormatException("it is necessary to pass a valid integer number!");
         }
         
         if (cousinPrimeNumber == 0 || cousinPrimeNumber == 1 || cousinPrimeNumber == 4) {            
