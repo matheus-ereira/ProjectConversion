@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 com\conversion\project\resources\ApplicationUtils.class
 com\conversion\project\ProjectApplication.class
 com\conversion\project\resources\TemperatureConverter.class
+=======
+com\conversion\project\ProjectApplication.class
+com\conversion\project\resources\TemperatureConverter.class
+com\conversion\project\resources\ApplicationUtils.class
+>>>>>>> master

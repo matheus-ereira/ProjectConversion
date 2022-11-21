@@ -8,6 +8,10 @@ package com.conversion.project.resources;
 public class ApplicationUtils {
     
     TemperatureConverter temperatureConverter = new TemperatureConverter();
+<<<<<<< HEAD
+=======
+    CousinPrimeValidation cousinPrimeValidation = new CousinPrimeValidation();
+>>>>>>> master
 
     public String conversionTratament(String option1, String option2, String value) throws NumberFormatException, ArithmeticException{
 
@@ -36,6 +40,27 @@ public class ApplicationUtils {
         
         return result;
     }
+<<<<<<< HEAD
+=======
+    
+    public String chooseTratament(String value){
+        String result;
+        
+        if (isNullOrEmpty(value)) {
+            return null;
+        }
+        
+        boolean funcValue = cousinPrimeValidation.validateNumber(value);
+        
+        if(funcValue){
+            result = "The value " + value + " is a prime number.";
+        }else{
+            result = "The value " + value + " is not a prime number.";
+        }
+        
+        return result;
+    }
+>>>>>>> master
 
     public boolean isNullOrEmpty(String value) {
         return value == null || value.isEmpty();
@@ -67,4 +92,36 @@ public class ApplicationUtils {
         }
         return null;
     }
+<<<<<<< HEAD
+=======
+    
+    public String choose(String value) {
+        
+        String option = value.toLowerCase();
+        
+        switch (option) {
+            case "sair":
+            case "exit":
+            case "Exit":
+            case "3":
+            case "3 - sair":
+                return "exit";
+            case "Temperature Converter":
+            case "temperature converter":
+            case "temperatureconverter":
+            case "1":
+            case "1 - Temperature Converter":
+                return "Temperature Converter";
+            case "Validate Prime Number":
+            case "validate prime number":
+            case "validateprimenumber":
+            case "2":
+            case "2 - Validate Prime Number":
+                return "Prime Number";
+            default:
+                break;
+        }
+        return null;
+    }
+>>>>>>> master
 }

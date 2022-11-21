@@ -3,5 +3,9 @@ C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\project\src\test\java\com\co
 C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\project\src\test\java\com\conversion\project\test\TemperatureConverter\TemperatureConverterTestKelvinToCelsius.java
 C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\project\src\test\java\com\conversion\project\test\TemperatureConverter\TemperatureConverterTestFahrenheitToKelvin.java
 C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\project\src\test\java\com\conversion\project\test\TemperatureConverter\TemperatureConverterTestCelsiusToFahrenheit.java
+<<<<<<< HEAD
+=======
+C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\project\src\test\java\com\conversion\project\test\CousinPrimeValidation\CousinPrimeValidationTest.java
+>>>>>>> master
 C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\project\src\test\java\com\conversion\project\test\TemperatureConverter\TemperatureConverterTestCelsiusToKelvin.java
 C:\Users\mathe\OneDrive\Documentos\NetBeansProjects\project\src\test\java\com\conversion\project\test\TemperatureConverter\TemperatureConverterTestAllMethods.java
