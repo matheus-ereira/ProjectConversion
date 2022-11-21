@@ -2,16 +2,11 @@ package com.conversion.project.resources;
 
 /**
  *
- * @author mathe
+ * @author matheus
  */
 public class CousinPrimeValidation {
 
-    /**
-    * Method responsible for converting the temperature from Celsius to Fahrenheit
-    *
-    * @param number temperature in celsius
-    * @return returns the temperature in Fahrenheit
-    */
+    
     public boolean validateNumber(String number) {
 
         Integer cousinPrimeNumber;
